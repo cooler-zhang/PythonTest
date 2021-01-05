@@ -4,6 +4,7 @@ List
 print("--------------------------Fruits:---------------------------")
 fruits = ["Apple", "Orange", "Banana"]
 popItem = fruits.pop(0)
+print(popItem)
 fruits.remove("Banana")
 fruits.append("WaterMelon")
 for fruit in fruits:
